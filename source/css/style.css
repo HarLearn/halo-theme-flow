@@ -141,8 +141,18 @@ body.sub-page .logo {
 header{
   text-align: center;
 }
+
 .logo{
   margin: 40px 0;
+}
+
+.logo h3.title-logo {
+  font-family: 'Ek Mukta', sans-serif;
+  font-size:300%;
+  max-width:100%;	
+  height: auto;
+  width: auto\9; /* ie8 */
+  
 }
 
 .top-social{

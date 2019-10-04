@@ -6,19 +6,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="${context!}">HarLearn</a>
+    <a class="navbar-brand" href="${context!}">${options.blog_title!}</a>
     </div>
     <div class="navbar-collapse collapse">
 
     <!-- Left nav -->
    <#include "categories.ftl">
-
-    <#--  <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-        <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-search">Submit</button>
-    </form>  -->
     <!-- Right nav -->
     <#include "profile.ftl">
 

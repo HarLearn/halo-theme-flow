@@ -1,10 +1,10 @@
 id: HarLearn_flower
-name: flower
+name: flow
 author:
   name: HarLearn
   website: https://www.harlearn.com
-description: A other Halo theme
-logo: https://avatars1.githubusercontent.com/u/1811819?s=460&v=4
+description: A Halo theme
+logo:
 website: https://github.com/HarLearn/halo-theme-flow
 repo: https://github.com/HarLearn/halo-theme-flow
 version: 1.0

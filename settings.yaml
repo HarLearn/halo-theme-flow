@@ -1,17 +1,6 @@
 sns:
   label: 社交资料
   items:
-    rss:
-      name: rss
-      label: RSS
-      type: radio
-      data-type: bool
-      default: true
-      options:
-        - value: true
-          label: 开启
-        - value: false
-          label: 关闭
     twitter:
       name: twitter
       label: Twitter
@@ -52,72 +41,13 @@ sns:
       label: QQ
       type: text
       placeholder: '只需填入 QQ 号即可'
-    telegram:
-      name: telegram
-      label: Telegram
-      type: text
-      placeholder: '只需填入 Telegram Id 即可'
 style:
   label: 样式设置
   items:
     icon:
       name: icon
-      label: 右上角图标
+      label: 顶部LOGO建议大小为(521*130)
       type: attachment
-    post_title_uppper:
-      name: post_title_uppper
-      label: 文章标题大写
-      type: radio
-      data-type: bool
-      default: true
-      options:
-        - value: true
-          label: 开启
-        - value: false
-          label: 关闭
-    blog_title_uppper:
-      name: blog_title_uppper
-      label: 博客标题大写
-      type: radio
-      data-type: bool
-      default: true
-      options:
-        - value: true
-          label: 开启
-        - value: false
-          label: 关闭
-    avatar_circle:
-      name: avatar_circle
-      label: 圆形头像
-      type: radio
-      data-type: bool
-      default: false
-      options:
-        - value: true
-          label: 开启
-        - value: false
-          label: 关闭
-    hitokoto:
-      name: hitokoto
-      label: 博客描述开启一言
-      type: radio
-      data-type: bool
-      default: false
-      options:
-        - value: true
-          label: 开启
-        - value: false
-          label: 关闭
-    google_color:
-      name: google_color
-      label: 浏览器沉浸颜色
-      type: color
-      default: '#fff'
-    scrollbar:
-      name: scrollbar
-      label: 全局滚动条颜色
-      type: color
-      default: '#3798e8'
     code_pretty:
       name: code_pretty
       label: 文章代码高亮主题

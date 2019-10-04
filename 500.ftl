@@ -6,7 +6,9 @@
     <title>Internal Error</title>
     <link href="${static!}/source/css/style.min.css" type="text/css" rel="stylesheet"/>
 </head>
+<body>
 <div class="page_404">
     <p>The page you are looking for is error</p>
 </div>
+</body>
 </html>

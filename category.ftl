@@ -3,7 +3,7 @@
     <#list posts.content as post>
         <div class="item">
             <a class="example-image-link" href="${post.thumbnail}" data-lightbox="example-set" data-title="Click the right half of the image to move forward.">
-            <img class="example-image" src="${post.thumbnail}" alt="显示图片"/></a>
+            <img class="example-image" src="${post.thumbnail}" alt=""/></a>
             <div class="content-item">
                 <span class="time">
                 <#list post.categories as category>

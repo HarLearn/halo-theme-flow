@@ -14,7 +14,6 @@
                 <p class="info">${post.summary}</p>
                 <ul class="list-inline">
                     <li><a href="#"><i class="fa fa-eye"></i> ${post.visits}</a></li>
-                    <li><a href="#"><i class="fa fa-heart"></i> ${post.likes}</a></li>
                 </ul>
             </div>
         </div>

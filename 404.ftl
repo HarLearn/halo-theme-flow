@@ -6,7 +6,12 @@
     <title>Not Found</title>
     <link href="${static!}/source/css/style.min.css" type="text/css" rel="stylesheet"/>
 </head>
-<div class="page_404">
-    <p>The page you are looking for is missing</p>
-</div>
+<body>
+
+    <div class="page_404">
+        <p>The page you are looking for is missing</p>
+    </div>
+
+    <script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" charset="utf-8" homePageUrl="https://www.harlearn.com" homePageName="回到我的主页"></script>
+</body>
 </html>

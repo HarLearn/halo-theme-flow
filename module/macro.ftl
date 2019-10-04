@@ -25,7 +25,15 @@
     <link rel="stylesheet" href="${static!}/source/font-awesome-4.4.0/css/font-awesome.min.css"  type="text/css">
 	
 	<link rel="stylesheet" href="${static!}/source/css/lightbox.css">
+
+	<link href="${static!}/source/plugins/prism/css/prism-${settings.code_pretty!'Default'}.css" type="text/css" rel="stylesheet" />
 	
+	<#--  自定义代码格式  -->
+	<style>
+		${settings.custom!}
+	</style>
+
+
 	<!-- Core JavaScript Files -->  	 
     <script src="${static!}/source/js/bootstrap.min.js"></script>
 	
@@ -42,7 +50,11 @@
 	
     <header>
 		<div class="logo">
-			<a href="${context!}"><img src="${static!}/source/images/logo.png"></a>
+			<#if settings.icon??>
+				<a href="${context!}"><img src="${settings.icon!'${static!}/source/images/logo.png'}"></a>
+			<#else>
+				<h3 class="title-logo"><a href="${context!}">${options.blog_title!}</a></h3>
+			</#if>
 		</div>
     </header>
     
@@ -132,6 +144,7 @@
 	
 	<script src="${static!}/source/js/lightbox-plus-jquery.min.js"></script>
 
+	<script type="text/javascript" src="${static!}/source/plugins/prism/js/prism.js"></script>
 	
 </body>
 
