@@ -12,6 +12,6 @@
         <p>The page you are looking for is missing</p>
     </div>
 
-    <script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" charset="utf-8" homePageUrl="https://www.harlearn.com" homePageName="回到我的主页"></script>
+    <script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" charset="utf-8" homePageUrl="${context!}" homePageName="回到我的主页"></script>
 </body>
 </html>

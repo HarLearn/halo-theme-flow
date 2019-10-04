@@ -63,7 +63,7 @@
 			<!-- These are our grid blocks -->
 			<#nested>
 		</div>
-		<@global.footer />
+		<#include "footer.ftl">
 	</div>
 
     <!-- Once the page is loaded, initialized the plugin. -->

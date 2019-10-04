@@ -11,7 +11,7 @@
                 </#list>
                 ${post.editTime}</span>
                 <h3 class="title-item"><a href="${context!}/archives/${post.url}">${post.title}</a></h3>
-                <p class="info">${post.summary}</p>
+                <p class="info">${post.summary}...</p>
                 <ul class="list-inline">
                     <li><a href="#"><i class="fa fa-eye"></i> ${post.visits}</a></li>
                 </ul>

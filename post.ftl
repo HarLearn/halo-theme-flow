@@ -16,7 +16,7 @@
                 </ul>
                 ${post.formatContent}
             </div>
-            <div class="bottom-item"></div>
+            <#include "module/footer.ftl">
         </article>
     </center>
 </@head>
